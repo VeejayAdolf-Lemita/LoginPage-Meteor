@@ -47,6 +47,7 @@ class Login extends Component {
                 value={email}
                 placeholder='Email'
                 onChange={this.handleInputChange}
+                required
               />
               <input
                 type='password'
@@ -54,6 +55,7 @@ class Login extends Component {
                 value={password}
                 placeholder='Password'
                 onChange={this.handleInputChange}
+                required
               />
               <div className='link-register'>
                 <Link to='/register'>I don't have an account</Link>

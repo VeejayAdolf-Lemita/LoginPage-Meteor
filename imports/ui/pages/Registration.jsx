@@ -82,6 +82,7 @@ class Registration extends Component {
                 value={firstName}
                 placeholder='First Name'
                 onChange={this.handleInputChange}
+                required
               />
               <input
                 type='text'
@@ -89,6 +90,7 @@ class Registration extends Component {
                 value={lastName}
                 placeholder='Last Name'
                 onChange={this.handleInputChange}
+                required
               />
               <input
                 type='email'
@@ -96,6 +98,7 @@ class Registration extends Component {
                 value={email}
                 placeholder='Email'
                 onChange={this.handleInputChange}
+                required
               />
               <input
                 type='password'
@@ -103,6 +106,7 @@ class Registration extends Component {
                 value={password}
                 placeholder='Password'
                 onChange={this.handleInputChange}
+                required
               />
               <input
                 type='password'
@@ -110,6 +114,7 @@ class Registration extends Component {
                 value={confirmPassword}
                 placeholder='Confirm Password'
                 onChange={this.handleInputChange}
+                required
               />
               <div className='link-register'>
                 <Link to='/login'>Let's sign in!</Link>
